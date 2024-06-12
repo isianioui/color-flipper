@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flipper</title>
+
+<style>
+   h1{
+     position:relative;
+   }
+   #btn1{
+    background-color: green;
+   }
+   #btn2{
+    background-color: rgb(9, 47, 100);
+   }
+   #btn3{
+    background-color: rgb(143, 24, 19);
+   }
+   /* #btn4{
+    background-color: green;
+   }
+ */
+
+  
+button{  
+    border-radius: 5px;
+    width: 100px;
+    height: 50%;
+    margin: 5px;
+}
+
+
+</style>
+
+
+
+</head>
+<body>
+    
+ <h1>COLOR FLOPPER : </h1>
+<div id="btns">
+
+    <button id="btn1" onclick="changeColor('green')">GREEN</button>
+    <button id="btn2" onclick="changeColor('blue')">BLUE</button>
+    <button id="btn3" onclick="changeColor('red')">RED</button>
+    <button id="btn4" onclick="RandomColor()">RANDOM</button>
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
